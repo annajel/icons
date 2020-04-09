@@ -11,13 +11,12 @@
     "isResetServicePassword": false
   },
   "description" : "Interconnection of GlassFish servers with pre-configured session replication and load balancing. <a href='https://jelastic.com/blog/glassfish-payara-auto-clustering-cloud-hosting/'>Learn More</a><img width='290' height='156' src='https://raw.githubusercontent.com/jelastic/icons/master/glassfish/jelastic/images/tip-auto-clustering.svg?sanitize=true'>",
-  "skipOnEnvInstall": true
-}
-"extraNodes": [
+  "skipOnEnvInstall": true,
+  "extraNodes": [
     {
       "nodeGroup": "das",
       "nodeType": "${clusterNode.nodeType}",     
-      "displayName": "DAS-B",
+      "displayName": "DAS-1",
       "count": 1,
       "fixedCloudlets": "${clusterNode.fixedCloudlets}",
       "flexibleCloudlets": "${clusterNode.flexibleCloudlets}",
@@ -31,3 +30,4 @@
     }
   }
 ]
+}
