@@ -16,7 +16,7 @@
     {
       "nodeGroup": "das",
       "nodeType": "${clusterNode.nodeType}",     
-      "displayName": "DAS-BB",
+      "displayName": "DAS-B",
       "count": 1,
       "fixedCloudlets": "${clusterNode.fixedCloudlets}",
       "flexibleCloudlets": "${clusterNode.flexibleCloudlets}",
